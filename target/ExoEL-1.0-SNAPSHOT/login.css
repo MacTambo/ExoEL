@@ -1,0 +1,63 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+    letter-spacing: 2px;
+    font-size:48px;
+}
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+input,
+textarea {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    color: white;
+}
+
+input[type="submit"] {
+    background: black;
+    border: 1px solid white;
+    border-radius: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+select {
+
+    height: auto;
+    margin: 0;
+    background: none;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+}
